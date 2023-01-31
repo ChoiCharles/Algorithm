@@ -1,3 +1,5 @@
+# SW Expert Academy_1926
+
 import sys
 sys.stdin = open("swea_1926_input.txt", "r")
 
