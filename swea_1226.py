@@ -24,7 +24,6 @@ def asdf(y, x):
         if cnt > 0:
             break
 
-
 T = 10
 for test_case in range(1, T + 1):
     n = int(input())
