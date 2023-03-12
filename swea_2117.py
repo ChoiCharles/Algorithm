@@ -3,25 +3,6 @@ sys.stdin = open("swea_2117_input.txt", "r")
 
 cost = [k*k+(k-1)*(k-1) for k in range(40)]
 
-# def asdf():
-#     home = []
-#     mx = 0
-#     for i in range(n):
-#         for j in range(n):
-#             if arr[i][j] == 1:
-#                 home.append((i, j))
-#     for i in range(n):
-#         for j in range(n):
-#             dist = [0] * 40
-#             for hi, hj in home:
-#                 a = abs(i-hi) + abs(j-hj) + 1
-#                 dist[a] += 1
-#             for k in range(1, 40):
-#                 dist[k] += dist[k - 1]
-#                 if cost[k] <= dist[k] * m:
-#                     mx = max(mx, dist[k])
-#     return mx
-
 def bfs(y, x):
     q = []
     q.append((y, x))
